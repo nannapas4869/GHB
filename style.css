@@ -103,7 +103,7 @@ body {
   transition: color 0.3s;
   color: black;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 15px;
 }
 .menu p.active {
   color: #ff8000;

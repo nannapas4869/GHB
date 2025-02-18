@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Prompt", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.white_bg {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding: 0.5rem 2rem;
+}
+.gray__bg__detail {
+    width: 100%;
+    height: auto;
+    background-color: #f3f3f3;
+    border: 0.5px solid #c5c5c5;
+}
+.culture__text {
+    font-size: 30px;
+    font-weight: bold;
+}
+p {
+    margin-bottom: 0 !important;
+}
+.rectangle {
+    width: 100%;
+    height: auto;
+    border: 1px solid #d4d4d4;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+  }
+  .view__course {
+    background-color: #ff8200;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 9999px;
+  }
+  .bg-footer {
+    background-image: url(/images/BG.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 4rem;
+  }
+  @keyframes slide-in {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  .ri-menu-line {
+    font-size: 40px;
+    position: relative;
+    top: 15px;
+  }
+  .margin-footer {
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+  }
+  .gap-footer {
+    gap: 0rem;
+  }
+  .align-address {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 1.8rem;
+    color: white;
+  }
+  .align-address-2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .margin-bottom-sitemap {
+    margin-bottom: 6rem;
+  }
+  .margin__address {
+    margin-top: 4rem !important;
+  }
+  .margin__address_2 {
+    margin-top: 4rem !important;
+  }
+  .bg-black {
+      background-color: #323130;
+      width: 100%;
+      height: auto;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+  }
+  .gray__bg {
+    width: 100%;
+    height: auto;
+    background-color: #F3F3F3;
+    border-bottom: 1px solid #C5C5C5;
+  }
+  .logo_word {
+    font-size: 35px;
+  }
+  .text__book {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .border__bottom {
+    border: 1px solid #6C6C6C;
+    width: 630px;
+  }
+  .try_read {
+    border: none;
+    color: white;
+    background-color: #FF8200;
+    width: 630px;
+    padding: 1rem 0;
+    border-radius: 9999px;
+  }
+  .try_download {
+    color: #FF8200;
+    border: 1px solid #FF8200;
+    width: 630px;
+    padding: 1rem 0;
+    border-radius: 9999px;
+    background-color: white;
+  }
+  @media screen and (max-width: 1440px) {
+    .text__book {
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+        top: 40px;
+    }
+      .border__bottom {
+        border: 1px solid #6C6C6C;
+        width: 450px;
+        position: relative;
+        top: 40px;
+       
+      }
+      .text-desc {
+        font-size: 13px;
+        position: relative;
+        top: 40px;
+      }
+      .try_read {
+        border: none;
+        color: white;
+        background-color: #FF8200;
+        width: 450px;
+        padding: 1rem 0;
+        border-radius: 9999px;
+        margin-top: 3rem;
+      }
+      .try_download {
+        color: #FF8200;
+        border: 1px solid #FF8200;
+        width: 450px;
+        padding: 1rem 0;
+        border-radius: 9999px;
+        background-color: white;
+      }
+  }
+  @media screen and (max-width: 1199px) {
+    .text__book {
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+        top: 40px;
+    }
+      .border__bottom {
+        border: 1px solid #6C6C6C;
+        width: 450px;
+        position: relative;
+        top: 40px;
+        display: block;
+        margin: auto;
+      }
+      .text-desc {
+        font-size: 13px;
+        position: relative;
+        top: 40px;
+      }
+      .try_read {
+        border: none;
+        color: white;
+        background-color: #FF8200;
+        width: 450px;
+        padding: 1rem 0;
+        border-radius: 9999px;
+        margin-top: 3rem;
+      }
+      .try_download {
+        color: #FF8200;
+        border: 1px solid #FF8200;
+        width: 450px;
+        padding: 1rem 0;
+        border-radius: 9999px;
+        background-color: white;
+      }
+      .image {
+        display: block;
+        margin: auto;
+      }
+      .align__all{
+        display: block;
+        margin: auto;
+        text-align: center;
+      }
+  }
+  @media screen and (max-width: 693px) {
+    .text__book {
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+        top: 40px;
+    }
+      .border__bottom {
+        border: 1px solid #6C6C6C;
+        width: 450px;
+        position: relative;
+        top: 40px;
+       
+      }
+      .text-desc {
+        font-size: 13px;
+        position: relative;
+        top: 40px;
+      }
+      .try_read {
+        border: none;
+        color: white;
+        background-color: #FF8200;
+        width: 450px;
+        padding: 1rem 0;
+        border-radius: 9999px;
+        margin-top: 3rem;
+      }
+      .try_download {
+        color: #FF8200;
+        border: 1px solid #FF8200;
+        width: 450px;
+        padding: 1rem 0;
+        border-radius: 9999px;
+        background-color: white;
+      }
+      .image {
+        display: block;
+        margin: auto;
+        width: 400px;
+      }
+      .align__all{
+        display: block;
+        margin: auto;
+        text-align: center;
+      }
+  }
+  @media screen and (max-width: 479px) {
+    .border__bottom {
+        border: 1px solid #6C6C6C;
+        width: 370px;
+        position: relative;
+        top: 40px;
+    }
+    .try_read {
+        border: none;
+        color: white;
+        background-color: #FF8200;
+        width: 370px;
+        padding: 1rem 0;
+        border-radius: 9999px;
+        margin-top: 3rem;
+      }
+    .try_download {
+        color: #FF8200;
+        border: 1px solid #FF8200;
+        width: 370px;
+        padding: 1rem 0;
+        border-radius: 9999px;
+        background-color: white;
+      }
+      .image {
+        display: block;
+        margin: auto;
+        width: 350px;
+      }
+  }
